@@ -13,6 +13,7 @@ This fork differs from Baseflight and Cleanflight in that it focuses on flight p
 | 28-04-2024 | Firmware 4.5 Release |
 
 
+
 ## News
 
 ### Requirements for the submission of new and updated targets
