@@ -51,22 +51,22 @@
   * @{
   */
 
-#define USBD_VID                        0x0483
+#define USBD_VID                        0x1209
 
 #ifdef USE_USB_CDC_HID
-#define USBD_PID_COMPOSITE              0x3256
+#define USBD_PID_COMPOSITE              0x4F54
 #endif
-#define USBD_PID                        0x5740
+#define USBD_PID                        0x4F54
 
 /** @defgroup USB_String_Descriptors
   * @{
   */
 #define USBD_LANGID_STRING              0x409
-#define USBD_MANUFACTURER_STRING        FC_FIRMWARE_NAME
+#define USBD_MANUFACTURER_STRING        "EdgeTX"  //FC_FIRMWARE_NAME
 
 #ifdef USBD_PRODUCT_STRING
-#define USBD_PRODUCT_HS_STRING          USBD_PRODUCT_STRING
-#define USBD_PRODUCT_FS_STRING          USBD_PRODUCT_STRING
+#define USBD_PRODUCT_HS_STRING          "RM TX16S Joystick" //USBD_PRODUCT_STRING
+#define USBD_PRODUCT_FS_STRING          "RM TX16S Joystick" //USBD_PRODUCT_STRING
 #else
 #define USBD_PRODUCT_HS_STRING          "STM32 Virtual ComPort in HS mode"
 #define USBD_PRODUCT_FS_STRING          "STM32 Virtual ComPort in FS Mode"

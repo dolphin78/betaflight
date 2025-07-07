@@ -46,8 +46,8 @@
 
 #define CDC_COM_INTERFACE 0x1
 
-#define USBD_VID             0x0483
-#define USBD_PID             0x3256
+#define USBD_VID             0x1209
+#define USBD_PID             0x4F54
 
 __ALIGN_BEGIN uint8_t USBD_HID_CDC_DeviceDescriptor[USB_LEN_DEV_DESC] __ALIGN_END =
 {

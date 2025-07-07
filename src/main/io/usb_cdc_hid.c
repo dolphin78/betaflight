@@ -67,7 +67,7 @@ void sendRcDataToHid(void)
         report[i] = scaleRange(constrain(rcData[channel], PWM_RANGE_MIN, PWM_RANGE_MAX), PWM_RANGE_MIN, PWM_RANGE_MAX, USB_CDC_HID_RANGE_MIN, USB_CDC_HID_RANGE_MAX);
         if (channel == PITCH) {
             // PITCH is inverted in Windows
-            report[i] = -report[i];
+            report[i] = report[i];
         }
     }
 

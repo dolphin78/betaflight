@@ -1,0 +1,9 @@
+Original: USB\VID_0483&PID_3256
+
+OpenTX: USB\VID_1209&PID_4F54
+
+https://github.com/EdgeTX/edgetx/blob/da68170b7d71a79041e67542e6f259f6f3ba815b/radio/src/usb_joystick.cpp
+
+build:
+
+make CONFIG=OMNIBUSF4SD EXTRA_FLAGS="-DUSE_GPS -DUSE_LED_STRIP"
